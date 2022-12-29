@@ -14,7 +14,7 @@ body, #root {
   font-weight: 600;
   font-size: 1.125rem;
   width: 100%;
-  height: 100vh;
+  height: 120vh;
   color: #ffff;
   display: flex;
   flex-direction: column;
