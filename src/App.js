@@ -1,11 +1,54 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/header';
+import { Card } from './components/Card';
+import Footer from './components/Footer';
+import TitleSection from './components/Title';
+
+
 
 function App() {
+
+  const features = [
+    {
+      // src: ,
+      title: "Chatbot",
+      description:
+        "Yea our chatbot is pretty cool",
+    },
+    {
+      // src: ,
+      title: "Data Visualization",
+      description:
+        "some graphs and forecasting stuff",
+    },
+    {
+      // src: ,
+      title: "News",
+      description: "Follow the most recent stuff for your stocks",
+    },
+    {
+      // src: ,
+      title: "Blah blah",
+      description:
+        "Another feature maybe",
+    },
+  ];
+
+
   return (
     <div className="home">
-        <Header />
+      <Header />
+      <TitleSection />
+      <div className='features-list-container'>
+        {
+          features.map((feature, index) => {
+            return (
+              <Card key={index} title={feature.title} imgUrl={feature.src}>{<p>{feature.description}</p>}</Card>
+            )
+          })
+        }
+      </div>
+      <Footer />
     </div>
   );
 }
