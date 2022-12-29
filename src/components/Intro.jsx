@@ -1,7 +1,7 @@
 import React, { useTransition } from 'react'
 import { Card } from './Card';
 
-const header = () => {
+const Intro = () => {
 
   const features = [
     {
@@ -94,5 +94,5 @@ const header = () => {
 
 
 
-export default header;
+export default Intro;
 

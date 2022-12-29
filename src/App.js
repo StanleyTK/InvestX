@@ -1,48 +1,22 @@
 import './App.css';
 import Intro from './components/Intro';
-import { Card } from './components/Card';
-import Footer from './components/Footer';
-import TitleSection from './components/Title';
+import Login from './login/signin';
+import About from './About/About';
 
+// npm install react-router-dom
+import { Routes, Route, NavLink, Navigate } from 'react-router-dom'
 
 
 function App() {
 
-<<<<<<< HEAD
-  
-=======
-  const features = [
-    {
-      // src: ,
-      title: "Chatbot",
-      description:
-        "Yea our chatbot is pretty cool",
-    },
-    {
-      // src: ,
-      title: "Data Visualization",
-      description:
-        "some graphs and forecasting stuff",
-    },
-    {
-      // src: ,
-      title: "News",
-      description: "Follow the most recent stuff for your stocks",
-    },
-    {
-      // src: ,
-      title: "Add/Delete Stocks",
-      description:
-        "Choose which stocks to simulate and keep track off",
-    },
-  ];
-
->>>>>>> 7d82a894a46f3e35250c2f1f31e34d0b4bdfea3f
-
   return (
     <div>
-      <Intro />
-      </div>
+      <Routes>
+        <Route path="/" element={<Intro />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </div>
       
   );
 }

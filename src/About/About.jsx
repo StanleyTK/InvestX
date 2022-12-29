@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const Login = () => {
+const About = () => {
   return (
     <div className="title-section-container">
         <div className="title-info-text">
@@ -21,4 +21,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default About;
