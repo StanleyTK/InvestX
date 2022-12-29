@@ -28,7 +28,7 @@ function App() {
     },
     {
       // src: ,
-      title: "Blah blah",
+      title: "Savit stuff",
       description:
         "Another feature maybe",
     },
