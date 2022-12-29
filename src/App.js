@@ -11,7 +11,7 @@ function App() {
   const features = [
     {
       // src: ,
-      title: "andy stuff",
+      title: "Chatbot",
       description:
         "Yea our chatbot is pretty cool",
     },
