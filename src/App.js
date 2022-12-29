@@ -28,9 +28,9 @@ function App() {
     },
     {
       // src: ,
-      title: "Savit stuff",
+      title: "Add/Delete Stocks",
       description:
-        "Another feature maybe",
+        "Choose which stocks to simulate and keep track off",
     },
   ];
 
