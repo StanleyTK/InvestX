@@ -23,9 +23,9 @@ const Intro = () => {
     },
     {
       // src: ,
-      title: "Blah blah",
+      title: "Add/Delete Stocks",
       description:
-        "Another feature maybe",
+        "Choose which stocks to keep track of",
     },
   ];
 
