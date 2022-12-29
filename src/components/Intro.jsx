@@ -8,7 +8,7 @@ const Intro = () => {
       // src: ,
       title: "Chatbot",
       description:
-        "Yea our chatbot is pretty cool",
+        "Exists (trust me bro)",
     },
     {
       // src: ,
