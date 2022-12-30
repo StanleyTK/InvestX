@@ -22,6 +22,12 @@ const SignIn = () => {
 
       </div>
 
+      <div className="title-section-container">
+          <h1>
+            Login
+          </h1>
+      </div>
+
       <form>
         <label htmlFor="username">Username: </label>
         <input 
