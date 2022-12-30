@@ -8,7 +8,7 @@ const Intro = () => {
       // src: ,
       title: "Chatbot",
       description:
-        "Yea our chatbot is pretty cool",
+        "Exists (trust me bro)",
     },
     {
       // src: ,
@@ -23,9 +23,9 @@ const Intro = () => {
     },
     {
       // src: ,
-      title: "Blah blah",
+      title: "Add/Delete Stocks",
       description:
-        "Another feature maybe",
+        "Choose which stocks to keep track of",
     },
   ];
 
