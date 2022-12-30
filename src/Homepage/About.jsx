@@ -1,8 +1,10 @@
-import React, { useTransition, useRef, useState, useEffect } from 'react'
+import React, { useTransition } from 'react'
 
-const SignIn = () => {
+const About = () => {
+
+
+
   
-
 
   return (
     <div className="home">
@@ -16,34 +18,31 @@ const SignIn = () => {
                   <a href="/about">About Us</a>
                   <a href="/login">Sign In</a>
                   <a href="/signup">Sign Up</a>
+
               </div>
           </div>
           
 
       </div>
 
-      <form>
-        <label htmlFor="username">Username: </label>
-        <input 
-          type="text" 
-          id="username"
-          autoComplete="on"
-        />
-      
-      </form>
 
-      <form>
-        <label htmlFor="username">Password: </label>
-        <input 
-          type="text" 
-          id="password"
-          autoComplete="off"
-        />
+      <div className="title-section-container">
+          <div className="title-info-text2">
+            <h1>
+            <span className="highlighted">About Us</span>
+            </h1>
+            <p className="title-info-description">
+              We're college students who are interested in Software Engineering
+            </p>
+            <div className="search-container">
+          
+            </div>
+            
+          </div>
       
-      </form>
-     
+      </div>
       
-
+    
 
       <div className="footer-container">
         <div className="footer-copyright">
@@ -60,5 +59,5 @@ const SignIn = () => {
 
 
 
-export default SignIn;
+export default About;
 

@@ -42,13 +42,11 @@ const Intro = () => {
                   <a href="/demo">Demo</a>
                   <a href="/about">About Us</a>
                   <a href="/login">Sign In</a>
+                  <a href="/signup">Sign Up</a>
+
               </div>
           </div>
-          <div className="wallet-btn">
-              <button className="primary" href="/login">
-                Login In
-              </button>
-          </div>
+          
 
       </div>
       <div className="title-section-container">
@@ -91,8 +89,5 @@ const Intro = () => {
     
   )
 }
-
-
-
 export default Intro;
 
