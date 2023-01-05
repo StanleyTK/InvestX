@@ -1,8 +1,10 @@
-import React, { useTransition, useRef, useState, useEffect } from 'react'
+import React, { useTransition } from 'react'
 
-const SignIn = () => {
+const SignUp = () => {
+
+
+
   
-
 
   return (
     <div className="home">
@@ -16,38 +18,12 @@ const SignIn = () => {
                   <a href="/about">About Us</a>
                   <a href="/login">Sign In</a>
                   <a href="/signup">Sign Up</a>
+
               </div>
           </div>
           
 
       </div>
-
-      <div className="title-section-container">
-          <h1>
-            Login
-          </h1>
-      </div>
-
-      <form>
-        <label htmlFor="username">Username: </label>
-        <input 
-          type="text" 
-          id="username"
-          autoComplete="on"
-        />
-      
-      </form>
-
-      <form>
-        <label htmlFor="username">Password: </label>
-        <input 
-          type="text" 
-          id="password"
-          autoComplete="off"
-        />
-      
-      </form>
-     
       
 
 
@@ -66,5 +42,5 @@ const SignIn = () => {
 
 
 
-export default SignIn;
+export default SignUp;
 
