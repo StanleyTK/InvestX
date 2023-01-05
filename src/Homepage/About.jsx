@@ -1,7 +1,46 @@
 import React, { useTransition } from 'react'
+import { Card } from './Card';
 
 const About = () => {
 
+  const features = [
+    {
+      // src: ,
+      title: "Stanley",
+      description:
+        "instert image + info here",
+    },
+    {
+      // src: ,
+      title: "Savit",
+      description:
+        "insert image + info here",
+    },
+    {
+      // src: ,
+      title: "Fox",
+      description:
+      "insert image + info here",
+    },
+    {
+      // src: ,
+      title: "Sydney Graver (example, add more later)",
+      description:
+      "Hi! My name is Sydney, and I am a first year student at Penn State who is studying computer science. I learned about this project through Stanley and Fox, who I worked with in the past during a high school internship.",
+    },
+    {
+      // src: ,
+      title: "Andy",
+      description:
+      "insert image + info here",
+    },
+    {
+      // src: ,
+      title: "Afeef",
+      description:
+      "insert image + info here",
+    },
+  ];
 
 
   
@@ -32,7 +71,7 @@ const About = () => {
             <span className="highlighted">About Us</span>
             </h1>
             <p className="title-info-description">
-              We're college students who are interested in Software Engineering
+              We're a team of six college students who are interested in Software Engineering and Computer Science. (add more here)
             </p>
             <div className="search-container">
           
@@ -42,7 +81,15 @@ const About = () => {
       
       </div>
       
-    
+      <div className='features-list-container'>
+        {
+          features.map((feature, index) => {
+            return (
+              <Card key={index} title={feature.title} imgUrl={feature.src}>{<p>{feature.description}</p>}</Card>
+            )
+          })
+        }
+      </div>
 
       <div className="footer-container">
         <div className="footer-copyright">
